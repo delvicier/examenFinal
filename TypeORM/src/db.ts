@@ -1,4 +1,5 @@
-import { DataSource } from "typeorm"
+import { DataSource } from 'typeorm'
+import { productos } from './entidades/Productos'
 
 export const AppDataSource = new DataSource({
     type: "mysql",
@@ -7,7 +8,8 @@ export const AppDataSource = new DataSource({
     username: "root",
     password: "",
     database: "typeormbd",
-    entities: [],
-    logging:true
+    entities: [productos],
+    logging:true,
+    synchronize: true
 })
 
