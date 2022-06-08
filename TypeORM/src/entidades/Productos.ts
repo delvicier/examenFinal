@@ -8,7 +8,7 @@ export class productos extends BaseEntity {
     id: number;
 
     @Column({
-        default: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5IWLLinP9aZgQbZmDw1yhRz2MXz8zt9XxTl0KgPjfEFB64sBvcSFcuQYNua3NLaTC2ro&usqp=CAU"
+        default: "https://www.faunaencasa.com/wp-content/uploads/2017/10/01-880x660.jpg"
     })
     foto: string;
 
@@ -21,7 +21,7 @@ export class productos extends BaseEntity {
     // Podemos agregarles propiedades como
     // valores por defecto:
     @Column({
-        default: "Gato meow meow"
+        default: "Este gato te amara siempre miau miau"
     })
     descripcion : string;
 

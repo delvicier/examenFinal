@@ -1,0 +1,28 @@
+<footer class="pie-pagina">
+  <div class="grupo-1">
+      <div class="meow">
+          <figure>
+              <a href="#">
+                  <img width="150px" height="150px" [src]="pieDePag.logo" alt="Logo">
+              </a>
+          </figure>
+      </div>
+      <div class="box">
+          <h2>SOBRE NOSOTROS</h2>
+          <p>{{pieDePag.descripcion1}}</p>
+          <p>{{pieDePag.descripcion2}}</p>
+      </div>
+      <div class="box">
+          <h2>SIGUENOS</h2>
+          <div class="red-social">
+              <a [href]="redes.face"><img width="40px" height="40px" [src]="redes.icoface" alt="Logo"></a>
+              <a [href]="redes.insta"><img width="38px" height="38px" [src]="redes.icoinsta" alt="Logo"></a>
+              <a [href]="redes.twitter"><img width="40px" height="40px" [src]="redes.icotwitter" alt="Logo"></a>
+              <a [href]="redes.youtube"><img width="40px" height="40px" [src]="redes.icoyoutube" alt="Logo"></a>
+          </div>
+      </div>
+  </div>
+  <div class="grupo-2">
+      <small>&copy; 2022 <b>TiendaMeow</b> | Todos los derechos reservados.</small>
+  </div>
+</footer>
