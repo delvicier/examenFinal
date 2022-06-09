@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { NavegacionComponent } from './navegacion/navegacion.component';
 import { PortadaComponent } from './portada/portada.component';
 import { FooterComponent } from './footer/footer.component';
+import { ContactosComponent } from './contactos/contactos.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { FooterComponent } from './footer/footer.component';
     HomeComponent,
     NavegacionComponent,
     PortadaComponent,
-    FooterComponent
+    FooterComponent,
+    ContactosComponent
   ],
   imports: [
     BrowserModule,
